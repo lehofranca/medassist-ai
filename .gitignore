@@ -1,0 +1,62 @@
+﻿# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment
+.env
+.env.*
+
+# Testing / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw datasets
+data/raw/
+
+# Generated indexes
+data/processed/faiss_index/
+
+# Generated model artifacts
+data/processed/medassist-qwen-smoke/
+data/processed/medassist-qwen-lora/
+
+data/training/train_formatted.json
+
+# Test / cache
+.pytest_cache/
+
+# Model artifacts
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Generated ML artifacts
+data/processed/faiss_index/
+data/processed/medassist-qwen-smoke/
+data/processed/medassist-qwen-lora/
+
+# Large generated datasets
+data/training/train_formatted.json
+
+# Local generated reports
+*.html
+*.csv
+
+# Large processed datasets
+data/processed/medquad_full.json
+data/processed/dataset_split/train.json

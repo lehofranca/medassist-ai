@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What factors can increase the risk of hypertension?",
+    "reference_answer": "Risk factors for hypertension can include older age, family history, excess body weight, physical inactivity, unhealthy diet, and excessive sodium intake.",
+    "results": [
+      {
+        "rank": 1,
+        "similarity": 0.6177440881729126,
+        "question": "Who is at risk for Atherosclerosis? ?",
+        "qtype": "susceptibility"
+      },
+      {
+        "rank": 2,
+        "similarity": 0.6022319793701172,
+        "question": "Who is at risk for Hypotension? ?",
+        "qtype": "susceptibility"
+      },
+      {
+        "rank": 3,
+        "similarity": 0.5833359956741333,
+        "question": "Who is at risk for Heart Failure? ?",
+        "qtype": "susceptibility"
+      }
+    ]
+  },
+  {
+    "question": "What are common symptoms of type 2 diabetes?",
+    "reference_answer": "Common symptoms can include increased thirst, frequent urination, increased hunger, fatigue, blurred vision, and slow-healing wounds.",
+    "results": [
+      {
+        "rank": 1,
+        "similarity": 0.7784741520881653,
+        "question": "What are the symptoms of Your Guide to Diabetes: Type 1 and Type 2 ?",
+        "qtype": "symptoms"
+      },
+      {
+        "rank": 2,
+        "similarity": 0.7606944441795349,
+        "question": "What are the symptoms of Am I at Risk for Type 2 Diabetes? Taking Steps to Lower Your Risk of Getting Diabetes ?",
+        "qtype": "symptoms"
+      },
+      {
+        "rank": 3,
+        "similarity": 0.7604347467422485,
+        "question": "What are the symptoms of Diabetes ?",
+        "qtype": "symptoms"
+      }
+    ]
+  },
+  {
+    "question": "What can happen when anemia reduces oxygen delivery to tissues?",
+    "reference_answer": "Reduced oxygen delivery can cause fatigue, weakness, shortness of breath, dizziness, and reduced exercise tolerance.",
+    "results": [
+      {
+        "rank": 1,
+        "similarity": 0.56624436378479,
+        "question": "What is (are) Anemia of Inflammation and Chronic Disease ?",
+        "qtype": "information"
+      },
+      {
+        "rank": 2,
+        "similarity": 0.5449825525283813,
+        "question": "What is (are) Anemia ?",
+        "qtype": "information"
+      },
+      {
+        "rank": 3,
+        "similarity": 0.5408319234848022,
+        "question": "What are the treatments for Anemia ?",
+        "qtype": "treatment"
+      }
+    ]
+  },
+  {
+    "question": "Why is monitoring blood pressure important in hypertension?",
+    "reference_answer": "Monitoring blood pressure helps assess whether blood pressure remains elevated and supports clinical decision-making and management.",
+    "results": [
+      {
+        "rank": 1,
+        "similarity": 0.49066776037216187,
+        "question": "What is (are) High Blood Pressure and Kidney Disease ?",
+        "qtype": "information"
+      },
+      {
+        "rank": 2,
+        "similarity": 0.47020578384399414,
+        "question": "What is (are) Blood Pressure Medicines ?",
+        "qtype": "information"
+      },
+      {
+        "rank": 3,
+        "similarity": 0.46982526779174805,
+        "question": "Do you have information about Potassium",
+        "qtype": "information"
+      }
+    ]
+  },
+  {
+    "question": "What is one important distinction between hypertension and diabetes?",
+    "reference_answer": "Hypertension primarily involves persistently elevated blood pressure, while diabetes involves abnormal regulation of blood glucose.",
+    "results": [
+      {
+        "rank": 1,
+        "similarity": 0.5959434509277344,
+        "question": "What causes Prevent diabetes problems: Keep your heart and blood vessels healthy ?",
+        "qtype": "causes"
+      },
+      {
+        "rank": 2,
+        "similarity": 0.5372044444084167,
+        "question": "What is (are) Prevent diabetes problems: Keep your diabetes under control ?",
+        "qtype": "information"
+      },
+      {
+        "rank": 3,
+        "similarity": 0.5332654118537903,
+        "question": "What to do for Diabetic Kidney Disease ?",
+        "qtype": "considerations"
+      }
+    ]
+  }
+]

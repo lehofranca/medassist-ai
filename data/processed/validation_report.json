@@ -1,0 +1,9 @@
+{
+  "dataset": "data\\training\\medquad_training.json",
+  "total_samples": 3,
+  "unique_questions": 3,
+  "duplicates": 0,
+  "errors": [],
+  "warnings": [],
+  "valid": true
+}

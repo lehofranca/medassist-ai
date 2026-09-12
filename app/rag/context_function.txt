@@ -1,0 +1,50 @@
+﻿def build_context(results):
+    filtered_results = []
+
+    for result in results:
+        score = float(result.get("score", 0.0))
+
+        if score < MIN_RETRIEVAL_SCORE:
+            continue
+
+        filtered_results.append(result)
+
+    # The highest-ranked result is the primary source.
+    # Additional sources are included only when they are
+    # sufficiently close to the primary relevance score.
+    if filtered_results:
+        primary_score = float(filtered_results[0]["score"])
+
+        selected_results = [
+            result
+            for result in filtered_results
+            if (
+                result is filtered_results[0]
+                or float(result["score"]) >= primary_score - 0.15
+            )
+        ]
+    else:
+        selected_results = []
+
+    context_parts = []
+
+    for rank, result in enumerate(selected_results, start=1):
+        document = result["document"]
+
+        question = clean_text(
+            document.get("question", "")
+        )
+
+        answer = clean_text(
+            document.get("answer", "")
+        )
+
+        context_parts.append(
+            f"[Source {rank}]\n"
+            f"Question: {question}\n"
+            f"Answer: {answer}\n"
+        )
+
+    context = "\n".join(context_parts)
+
+    return context[:MAX_CONTEXT_CHARS]

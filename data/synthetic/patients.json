@@ -1,0 +1,62 @@
+[
+    {
+        "patient_id": "P001",
+        "name": "Paciente Sintetico 001",
+        "age": 45,
+        "sex": "F",
+        "conditions": [
+            "hypertension"
+        ],
+        "medications": [
+            "losartan"
+        ],
+        "pending_exams": [
+            "blood pressure monitoring"
+        ],
+        "recent_exams": [
+            {
+                "name": "Complete Blood Count",
+                "status": "completed",
+                "result": "Within reference range"
+            }
+        ]
+    },
+    {
+        "patient_id": "P002",
+        "name": "Paciente Sintetico 002",
+        "age": 62,
+        "sex": "M",
+        "conditions": [
+            "type 2 diabetes"
+        ],
+        "medications": [
+            "metformin"
+        ],
+        "pending_exams": [
+            "HbA1c"
+        ],
+        "recent_exams": [
+            {
+                "name": "Fasting glucose",
+                "status": "completed",
+                "result": "Above reference range"
+            }
+        ]
+    },
+    {
+        "patient_id": "P003",
+        "name": "Paciente Sintetico 003",
+        "age": 29,
+        "sex": "F",
+        "conditions": [],
+        "medications": [],
+        "pending_exams": [],
+        "recent_exams": [
+            {
+                "name": "Complete Blood Count",
+                "status": "completed",
+                "result": "Within reference range"
+            }
+        ]
+    }
+]

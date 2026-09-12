@@ -1,0 +1,34 @@
+﻿def calculate_specificity_penalty(query, document):
+    entity = detect_entity(query)
+
+    document_question = normalize_text(
+        document.get("question", "")
+    )
+
+    # Generic hypertension should prefer the direct
+    # High Blood Pressure document over more specific
+    # or combined conditions.
+    if entity == "hypertension":
+
+        if "pulmonary hypertension" in document_question:
+            return 0.40
+
+        if (
+            "high blood pressure and kidney disease"
+            in document_question
+        ):
+            return 0.20
+
+    # Explicit high blood pressure query.
+    if entity == "high blood pressure":
+
+        if "pulmonary hypertension" in document_question:
+            return 0.40
+
+        if (
+            "high blood pressure and kidney disease"
+            in document_question
+        ):
+            return 0.20
+
+    return 0.0

@@ -1,0 +1,26 @@
+# API
+fastapi
+uvicorn
+
+# Data validation
+pydantic
+python-dotenv
+
+# LLM / Transformers
+torch
+transformers
+datasets
+accelerate
+peft
+
+# LangChain
+langchain
+langchain-community
+langchain-huggingface
+
+# LangGraph
+langgraph
+
+# Testing
+pytest
+httpx
